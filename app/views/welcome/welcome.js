@@ -12,11 +12,11 @@
 //             $bgobj.css({ backgroundPosition: coords });
 //         }); 
 //     }); 
-function parallax(){
-    var prlx_lyr_1 = document.getElementById('prlx_lyr_1');
-    prlx_lyr_1.style.top = -(window.pageYOffset / 4) + 'px';
-}
+// function parallax(){
+//     var prlx_lyr_1 = document.getElementById('prlx_lyr_1');
+//     prlx_lyr_1.style.top = -(window.pageYOffset / 4) + 'px';
+// }
 
-window.addEventListener("scroll", parallax, false);   
+// window.addEventListener("scroll", parallax, false);   
  });
 
